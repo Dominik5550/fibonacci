@@ -16,6 +16,15 @@ public class Fibonacci {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Auto auto = new Auto();
+        System.out.println(auto.getPrzebieg());
+        
+        auto.setPrzebieg(12321);
+        System.out.println(auto.getPrzebieg());
+        
+        
+        
     }
     
 }
